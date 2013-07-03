@@ -1,0 +1,37 @@
+set nocompatible
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" Define bundles via Github repos
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-git'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'croaky/vim-colors-github'
+Bundle 'scrooloose/syntastic'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'scrooloose/nerdtree'
+Bundle 'kien/ctrlp.vim'
+Bundle 'ervandew/supertab'
+Bundle 'xenoterracide/html.vim'
+Bundle 'itspriddle/vim-jquery'
+Bundle 'Townk/vim-autoclose'
+Bundle 'jeetsukumaran/vim-buffergator'
+Bundle 'danro/rename.vim'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-fugitive'
+Bundle 'vim-scripts/greplace.vim'
+Bundle 'vim-scripts/tComment'
+Bundle 'vim-scripts/ctags.vim'
+
+filetype on
+

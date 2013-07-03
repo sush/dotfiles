@@ -1,5 +1,5 @@
 [user]
-    name = sush
+	name = sush
 
 [github]
     user = sush
@@ -30,6 +30,3 @@
     co = checkout
     st = status
     br = branch
-
-[mergetool]
-    keepBackup = true
