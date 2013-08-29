@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Theme to load (in ~/.oh-my-zsh/themes/)
-ZSH_THEME="robbyrussell"
+ZSH_THEME="miloshadzic"
 
 # Plugins to load (in ~/.oh-my-zsh/plugins/)
 plugins=(git rails3 bundler cap gem osx brew)
@@ -26,3 +26,6 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
