@@ -36,7 +36,7 @@ syntax on
 colorscheme railscasts
 
 "font
-set guifont=Menlo:h12
+set guifont=Menlo\ for\ Powerline:h12
 
 "configure syntastic syntax checking to check on open as well as save
 let g:syntastic_check_on_open=1
@@ -177,3 +177,6 @@ map <Leader>ct :!ctags -R .<CR>
 
 "generate ctags based on Gemfile
 map <Leader>rt :!bundle list --paths=true \| xargs ctags --extra=+f --exclude=.git --exclude=log -R *
+
+"let airline use powerline patched fonts
+let g:airline_powerline_fonts = 1

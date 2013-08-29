@@ -32,6 +32,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/greplace.vim'
 Bundle 'vim-scripts/tComment'
 Bundle 'vim-scripts/ctags.vim'
+Bundle 'bling/vim-airline'
 
 filetype on
 
