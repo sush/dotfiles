@@ -176,7 +176,7 @@ let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 map <Leader>ct :!ctags -R .<CR>
 
 "generate ctags based on Gemfile
-map <Leader>rt :!bundle list --paths=true \| xargs ctags --extra=+f --exclude=.git --exclude=log -R *
+map <Leader>rt :!bundle list --paths=true \| xargs ctags --extra=+f --exclude=.git --exclude=log --exclude='*.js' -R *
 
 "let airline use powerline patched fonts
 let g:airline_powerline_fonts = 1
