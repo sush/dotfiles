@@ -73,10 +73,6 @@ nmap <S-Tab> gT
 "make Y consistent with C and D
 nnoremap Y y$
 
-" vim-rspec mappings
-nnoremap <Leader>s :call RunCurrentSpecFile()<CR>
-nnoremap <Leader>l :call RunLastSpec()<CR>
-
 "turn off needless toolbar on gvim/mvim
 set guioptions-=T
 
