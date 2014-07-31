@@ -54,11 +54,17 @@ imap {<CR> {}<ESC>i<CR><ESC>O
 "ctrlp mapping"
 let g:ctrlp_map = '<c-f>'
 
+"dash vim mapping
+map drb :Dash ruby:
+
 "leader
 let mapleader = " "
 
+"indent paragraph with Leader + a
+noremap <leader>a =ip
+
 "jj to escape"
-imap jj <Esc>
+imap jk <Esc>
 
 "key mapping for window navigation
 map <C-h> <C-w>h
@@ -172,7 +178,15 @@ let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 map <Leader>ct :!ctags -R .<CR>
 
 "generate ctags based on Gemfile
-map <Leader>rt :!bundle list --paths=true \| xargs ctags --extra=+f --exclude=.git --exclude=log --exclude='*.js' -R *
+map <Leader>gct :!bundle list --paths=true \| xargs ctags --extra=+f --exclude=.git --exclude=log --exclude='*.js' -R *
+
+"launch rspec through iterm
+let g:rspec_runner = "os_x_iterm"
+
+"vim.rspec mappings
+map <Leader>rc :call RunCurrentSpecFile()<CR>
+map <Leader>rl :call RunLastSpec()<CR>
+map <Leader>ra :call RunAllSpecs()<CR>
 
 "let airline use powerline patched fonts
 let g:airline_powerline_fonts = 1

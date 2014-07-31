@@ -32,6 +32,8 @@ Bundle 'vim-scripts/greplace.vim'
 Bundle 'vim-scripts/tComment'
 Bundle 'vim-scripts/ctags.vim'
 Bundle 'bling/vim-airline'
+Bundle 'rizzatti/dash.vim'
+Bundle 'thoughtbot/vim-rspec'
 
 filetype on
 
