@@ -35,6 +35,7 @@ Bundle 'bling/vim-airline'
 Bundle 'rizzatti/dash.vim'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'elixir-lang/vim-elixir'
+Bundle 'fatih/vim-go'
 
 filetype on
 
