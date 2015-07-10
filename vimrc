@@ -191,3 +191,10 @@ map <Leader>ra :call RunAllSpecs()<CR>
 
 "let airline use powerline patched fonts
 let g:airline_powerline_fonts = 1
+
+"enable syntax-highlighting for Golang Functions, Methods and Structs
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1

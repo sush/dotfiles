@@ -23,10 +23,17 @@ export EDITOR=$VISUAL
 # Homebrew cask installation dir
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+# Golang path
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+# Psql path
+export PATH=$PATH:/opt/homebrew-cask/Caskroom/postgres/latest/Postgres.app/Contents/MacOS/bin
+
 # Aliases
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
 fi
 
-### Added by the Heroku Toolbelt
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

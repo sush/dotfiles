@@ -12,3 +12,6 @@ alias b="bundle"
 # Rubygems
 alias gi="gem install"
 alias giv="gem install -v"
+
+# Git / hub
+eval "$(hub alias -s)"
