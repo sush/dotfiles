@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="miloshadzic"
 
 # Plugins to load (in ~/.oh-my-zsh/plugins/)
-plugins=(git rails bundler cap gem osx brew)
+plugins=(git rails bundler gem osx brew)
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
@@ -18,7 +18,6 @@ source $ZSH/oh-my-zsh.sh
 # Editor
 export VISUAL=mvim
 export EDITOR=$VISUAL
-
 
 # Homebrew cask installation dir
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
