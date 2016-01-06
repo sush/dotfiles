@@ -36,6 +36,9 @@ Bundle 'rizzatti/dash.vim'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'fatih/vim-go'
+Bundle 'rking/ag.vim'
+Bundle 'junkblocker/patchreview-vim'
+Bundle 'codegram/vim-codereview'
 
 filetype on
 

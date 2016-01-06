@@ -15,6 +15,9 @@ eval "$(rbenv init -)"
 
 source $ZSH/oh-my-zsh.sh
 
+#Docker machine default
+eval "$(docker-machine env default)"
+
 # Editor
 export VISUAL=mvim
 export EDITOR=$VISUAL
@@ -27,7 +30,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # Psql path
-export PATH=$PATH:/opt/homebrew-cask/Caskroom/postgres/latest/Postgres.app/Contents/MacOS/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 # Aliases
 if [ -e "$HOME/.aliases" ]; then
