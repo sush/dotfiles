@@ -54,9 +54,6 @@ imap {<CR> {}<ESC>i<CR><ESC>O
 "ctrlp mapping"
 let g:ctrlp_map = '<c-f>'
 
-"dash vim mapping
-map drb :Dash ruby:
-
 "leader
 let mapleader = " "
 

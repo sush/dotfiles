@@ -32,6 +32,9 @@ export PATH=$PATH:$GOPATH/bin
 # Psql path
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
+# LANG
+export LANG="en_US.UTF-8"
+
 # Aliases
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
